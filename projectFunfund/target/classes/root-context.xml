@@ -5,7 +5,7 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	
-	<!-- <bean id="dataSource"
+	 <bean id="dataSource"
 		class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
@@ -22,7 +22,7 @@
 	</bean>
 	<bean class="org.mybatis.spring.SqlSessionTemplate">
 	<constructor-arg ref="sqlSession"/>
-	</bean> -->
+	</bean>
 	
 </beans>		
 		
